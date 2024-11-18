@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.views import generic
 from .models import Event
+from .models import Post
 
 
 # Create your views here.
@@ -17,7 +18,7 @@ class EventsList(generic.ListView):
 def event_detail(request, event_id):
     
     queryset = Event.objects.all()
-    event = get_object_or_404(queryset, event_id=event_id)
+    event = get_object_or_404(queryset, id=event_id)
 
     return render(
         request,
