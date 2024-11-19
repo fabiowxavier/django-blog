@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'codeanyapp.com', 'django-blog-fwx.herokuapp.com', '8000-fabiowxavier-djangoblog-sld74upogpa.ws.codeinstitute-ide.net']
+    'codeanyapp.com', 'django-blog-fwx-520ce42b1218.herokuapp.com', '8000-fabiowxavier-djangoblog-sld74upogpa.ws.codeinstitute-ide.net']
 
 
 # Application definition
