@@ -27,7 +27,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'codeanyapp.com', '.herokuapp.com', '8000-fabiowxavier-djangoblog-sld74upogpa.ws.codeinstitute-ide.net']
@@ -109,7 +109,8 @@ DATABASES = {
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
-    "https://*.herokuapp.com"
+    "https://*.herokuapp.com",
+    'https://8000-fabiowxavier-djangoblog-sld74upogpa.ws.codeinstitute-ide.net',
 ]
 
 # Password validation
