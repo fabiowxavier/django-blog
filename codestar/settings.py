@@ -32,7 +32,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [ 'codeanyapp.com',
             'django-blog-fwx.herokuapp.com',
-            '8000-fabiowxavier-djangoblog-sld74upogpa.ws.codeinstitute-ide.net'
+            '8000-fabiowxavier-djangoblog-sld74upogpa.ws.codeinstitute-ide.net',
             'django-blog-fwx-520ce42b1218.herokuapp.com',
             ]
 
